@@ -1,0 +1,65 @@
+
+/*Aviso de Privacidad*/
+#exitoMenu {position: absolute; z-index: 1; width: 100%; background-color: transparent; border: 0; /*border-bottom: 1px solid rgba(255,255,255,0.2);*/ }
+
+a {
+    color: #FFB104 !important;
+}
+
+.styleHR {
+	border-color: #ffaf04;
+	margin-top: -.5em;
+	width:  100%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0),  #ffaf04, rgba(0, 0, 0, 0));
+}
+
+#tituloPrivacidad{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-family:'Gill Sans', sans-serif;
+	color:  #0089ce !important;
+	font-size: 35px;
+}
+
+#subtituloPrivacidad{
+	margin-top: 3em;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-family:'Gill Sans', sans-serif;
+	color: #808080 !important;
+	font-size: 20px;
+
+}
+
+#estiloPrivacidad{
+	margin-top: 4em;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: justify;
+	font-family: 'Gill Sans', sans-serif;
+	color: #808080 !important;
+	margin-bottom: 6em;
+	font-size: 17px;
+}
+
+.estiloLinks{
+	color: #ffaf04 !important;
+}
+
+
+
+/*FOOTER*/
+footer{background-color: #0089CE;color: #FFFFFF;padding: 30px 40px;}
+footer .text-left{border-left: 1px solid #FFFFFF;font-size: 18px;}
+footer .text-right{font-size: 18px;}
+
+/*mediaQ*/
+@media(max-width:600px){
+	#logoexito{
+	display: none;
+	}
+
+}
+

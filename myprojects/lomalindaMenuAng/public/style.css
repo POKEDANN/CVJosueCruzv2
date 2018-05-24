@@ -1,0 +1,148 @@
+header {background-color: #232323; padding: 22px; }
+.home {width: 30px; float: right; }
+
+.side-menu .menu-toggle-list a.md-button {
+    color: white;
+    min-height: 50px;
+}
+button.md-button-toggle.md-button.md-ink-ripple.layout-row.flex {
+    font-weight: bold;
+}
+p{font-family: Roboto, sans-serif;}
+hr.ng-scope {
+    border: 1.5px solid #4D4D4D;
+    max-width: 50%;
+    margin: 0;
+    margin-bottom: 25px;
+}
+h3{
+    font-family: "Roboto Slab", serif;
+    color: #4d4d4d;
+    font-size: 35px;
+}
+.side-menu .md-button-toggle .md-toggle-icon {
+    color: white;
+}
+a, .btn, .button, button, input[type="submit"], a.comment-reply-link{
+     font-family: Roboto Slab;
+
+}
+md-content.layout-fill.layout-padding.layout-row {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px 50px 40px;
+}
+md-sidenav.md-sidenav-left.md-whiteframe-1dp.md-closed.ng-isolate-scope.md-locked-open {
+    background-color: #232323;
+}
+md-content.md-default-theme, md-content {
+    background-color: rgb(35, 35, 35);
+}
+.menu-toggle-list {
+    background-color: #777777 !important;
+    color: #fff;
+}
+span.ng-binding.ng-scope {
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+}
+h3 {font-size: 35px;}
+
+button.md-button-toggle.md-button.md-ink-ripple.layout-row.flex {
+    background-color: #232323;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.side-menu > li {
+    margin-top: -1px;
+}
+
+md-sidenav {
+  overflow: visible;
+  
+}
+.side-menu, .side-menu ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+.side-menu .md-button.active {
+  color: #FF5722; /* deep-orange 500 */
+}
+
+.side-menu .menu-toggle-list a.md-button {
+  display: block;
+  padding: 0 16px 0 32px;
+  text-transform: none;
+  text-rendering: optimizeLegibility;
+  font-weight: 100 !important;
+}
+
+.side-menu .menu-toggle-list .md-button {
+  display: block;
+  padding: 0 16px 0 32px;
+  text-transform: none;
+  font-weight: 100 !important;
+}
+
+.side-menu > li {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.md-button-toggle .md-toggle-icon.toggled {
+  transform: rotateZ(180deg);
+  -webkit-transform: rotateZ(180deg);
+}
+
+.md-button-toggle.toggled {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.side-menu .md-button-toggle .md-toggle-icon {
+  margin: auto 0 auto auto;
+  padding-top: 12px;
+  width: 15px;
+  float: right;
+  transition: transform .3s ease-in-out;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+}
+
+.menu-toggle-list.ng-hide {
+  max-height: 0;
+}
+
+.side-menu .md-button {
+  border-radius: 0;
+  color: inherit;
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 40px;
+  margin: 0;
+  max-height: 40px;
+  overflow: hidden;
+  padding: 0 16px;
+  text-align: left;
+  text-decoration: none;
+  white-space: normal;
+  width: 100%;
+}
+
+.menu-toggle-list {
+  background: #fff;
+  max-height: 1300px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: 0.75s cubic-bezier(0.35, 0, 0.25, 1);
+  -webkit-transition-property: max-height;
+  -moz-transition: 0.75s cubic-bezier(0.35, 0, 0.25, 1);
+  -moz-transition-property: max-height;
+  transition: 0.75s cubic-bezier(0.35, 0, 0.25, 1);
+  transition-property: max-height;
+}
+
+.side-menu menu-toggle span{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}

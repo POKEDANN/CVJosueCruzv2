@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'sansationregular';
+    src: url('sansation_regular-webfont.eot');
+    src: url('sansation_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sansation_regular-webfont.woff2') format('woff2'),
+         url('sansation_regular-webfont.woff') format('woff'),
+         url('sansation_regular-webfont.ttf') format('truetype'),
+         url('sansation_regular-webfont.svg#sansationregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sansation_lightregular';
+    src: url('sansation_light-webfont.eot');
+    src: url('sansation_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sansation_light-webfont.woff2') format('woff2'),
+         url('sansation_light-webfont.woff') format('woff'),
+         url('sansation_light-webfont.ttf') format('truetype'),
+         url('sansation_light-webfont.svg#sansation_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold !important;
+	font-family: 'sansationregular' !important;
+}
+
+a:hover{
+	color: #f1f1f1;
+
+}
+
+body {
+	background-image: url(../images/fondo.jpg);
+	color: #FFF;
+	font-family: 'sansation_lightregular';
+}
+
+#logo{
+	background-image: url(../images/grandpartner.png);
+	background-size: cover;
+	background-position: center right;
+	background-repeat: no-repeat;
+	height: 288px;
+}
+
+p{
+	margin-bottom: 15px;
+}
+.titulo{
+
+}
+#dinamica{
+	padding-bottom: 30px;
+	  margin-top: -60px;
+}
+
+#dinamica p{
+	text-align: justify;
+	font-size: 16px;
+}
+
+
+@media (max-width : 780px) {
+	#dinamica{
+		
+		  margin-top: 0px;
+	}
+}

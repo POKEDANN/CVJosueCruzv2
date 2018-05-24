@@ -1,0 +1,77 @@
+[
+
+   {"lat":"21.055552",
+   "lng":"-89.631151",
+   "title":"ZONA SURESTE (MÉRIDA)",
+   "street":"Carretera México-Progreso km 10, #3500, Col. Tablaje Catastral C.P. 97300, Mérida, Yuc.",
+   "telefono":"01(999) 941 03 47",
+   "correo":"contacto@autoefectivo.com",
+   "horario":"<br>Lunes a viernes 08:00 h a 13:30 h y de 15:00 h a 17:00 h",
+   "encargado":"Arielle Cardoso"
+   },
+  {"lat":"17.988953",
+   "lng":"-92.97789",
+   "title":"ZONA SURESTE (VILLAHERMOSA)",
+   "street":"Carretera Villahermosa-Teapa km 18, Subteniente García, Playas de Rosario, C.P. 86291, Centro, Tabasco.",
+   "telefono":"01(993) 338 23 56",
+   "correo":"contacto@autoefectivo.com",
+   "horario":"<br>Lunes a viernes 08:00 h a 13:30 h y de 15:00 h a 17:00 h",
+   "encargado":"David de la Cruz"
+   },
+  {"lat":"20.992214",
+   "lng":"-86.854606",
+   "title":"ZONA SURESTE (CANCÚN)",
+   "street":"Av. Colosio s/n, Campestre Lol-be Alfredo V Bonfil (al lado del Motel Las Cerezas), C.P. 77560, Q.Roo",
+   "telefono":"01 (998) 8 82 02 76",
+   "correo":"contacto@autoefectivo.com",
+   "horario":"<br>Lunes a viernes 08:00 h a 13:30 h y de 15:00 h a 17:00 h",
+   "encargado":" Gerson Jair Jacome Sosa"
+   },
+  {"lat":"16.756843",
+   "lng":"-93.170704",
+   "title":"ZONA SURESTE (TUXTLA GUTIÉRREZ)",
+   "street":"Carretera Tuxtla-Ocozocoutla km 134 (a un lado de la Agencia Kenworth), C.P. 29130, Berriozábal, Chiapas.",
+   "telefono":"01 (961) 617 14 38",
+   "correo":"contacto@autoefectivo.com",
+   "horario":"<br>Lunes a viernes 08:00 h a 13:30 h y de 15:00 h a 17:00 h",
+   "encargado":"Carlos Pimentel Toledo"
+   },
+    {"lat":"16.912107",
+   "lng":"-99.793592",
+   "title":"ZONA SURESTE (ACAPULCO)",
+   "street":"Juan R. Escudero, Mz 48 Lt 19, Col. La Venta, C.P. 39713, Acapulco de Juárez, Guerrero.",
+   "telefono":"01 (744) 188 73 34",
+   "horario":"<br>Lunes a viernes 08:00 h a 13:30 h y de 15:00 h a 17:00 h",
+   "encargado":"Héctor Javier Cortés Barajas",
+   "correo":"contacto@autoefectivo.com"
+   },
+  {"lat":"19.165124",
+   "lng":"-96.220005",
+   "title":"ZONA SUR (VERACRUZ)",
+   "street":"Calle 2, Lt. 17 Mz. 4, Col. Industrial Bruno Pagliai, #94697, Veracruz   (frente a Planta Rotoplas)",
+   "telefono":"01 (22) 99 20 85 28",
+   "correo":"contacto@autoefectivo.com",
+   "horario":"<br>Lunes a viernes 08:00 h a 13:30 h y de 15:00 h a 17:00 h",
+   "encargado":"Ricardo Nolasco"
+   },
+  {"lat":"17.134506",
+   "lng":"-96.774364",
+   "title":"ZONA SUR (OAXACA)",
+   "street":"Calle Artículo 123, #180, Col. Granjas y Huertos de Brenamiel, C.P. 68285, San Jacinto Amilpas-Oaxaca",
+   "telefono":"01 (951) 206 14 29",
+   "correo":"contacto@autoefectivo.com",
+   "horario":"<br>Lunes a viernes 8:00 h a 13:30 h y de 15:00 h a 17:00 h",
+   "encargado":" Rubén García Gutiérrez"
+   },
+  {"lat":"18.893649",
+   "lng":"-99.131162",
+   "title":"ZONA SUR (CUERNAVACA)",
+  "street":"Carretera Federal Cuernavaca-Cuautla, km 14.5, Col. La Joya (a 100 m del puente de Acolapa), Yautepec, Morelos, C.P. 62730",
+   "telefono":" 01 (777) 309 87 33",
+   "horario":"<br>Lunes a viernes 08:00 h a 13:30 h y de 15:00 h a 17:00 h",
+   "encargado":"Cynthia Carolina Covarrubias Tovar",
+   "correo":"contacto@autoefectivo.com"
+   }
+
+  
+]

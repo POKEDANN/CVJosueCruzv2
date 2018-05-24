@@ -1,0 +1,1080 @@
+/*
+Theme Name:     Majesty Child
+Theme URI:      http://samathemes.com
+Description:    Child theme for the Majesty theme 
+Author:         samathemes
+Author URI:     http://samathemes.com
+Template:       majesty
+Version:        1.0
+*/
+@import url("../majesty/style.css");
+// @font-face {
+//     font-family: 'hermioneregular';
+//     src: url('hermione-regular-webfont.eot');
+//     src: url('hermione-regular-webfont-.eot#iefix') format('embedded-opentype'),
+//          url('hermione-regular-webfont.woff2') format('woff2'),
+//          url('hermione-regular-webfont.woff') format('woff'),
+//          url('hermione-regular-webfont.ttf') format('truetype'),
+//          url('hermione-regular-webfont.svg#hermioneregular') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+
+// }
+// @font-face {
+//     font-family: 'canterbold';
+//     src: url('canter_bold-webfont.eot');
+//     src: url('canter_bold-webfont-.eot#iefix') format('embedded-opentype'),
+//          url('canter_bold-webfont.woff2') format('woff2'),
+//          url('canter_bold-webfont.woff') format('woff'),
+//          url('canter_bold-webfont.ttf') format('truetype'),
+//          url('canter_bold-webfont.svg#canterbold') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+
+// }
+// @font-face {
+//   font-family: 'LetterGothicStd-Bold';
+//   src: url('LetterGothicStd-Bold-.eot#iefix') format('embedded-opentype'),  url('LetterGothicStd-Bold.otf')  format('opentype'),
+//          url('LetterGothicStd-Bold.woff') format('woff'), url('LetterGothicStd-Bold.ttf')  format('truetype'), url('LetterGothicStd-Bold.svg#LetterGothicStd-Bold') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+@font-face {
+  font-family: 'NexaRustSlab-BlackShadow01';
+  src: url('NexaRustSlab-BlackShadow01.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NexaRustSlab-BlackShadow01';
+  src:  url('NexaRustSlab-BlackShadow01.otf')  format('opentype'),
+	     url('NexaRustSlab-BlackShadow01.woff') format('woff'), url('NexaRustSlab-BlackShadow01.ttf')  format('truetype'), url('NexaRustSlab-BlackShadow01.svg#NexaRustSlab-BlackShadow01') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SignPainter-HouseScript';
+  src: url('SignPainter-HouseScript.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SignPainter-HouseScript';
+  src:  url('SignPainter-HouseScript.otf')  format('opentype'),
+	     url('SignPainter-HouseScript.woff') format('woff'), url('SignPainter-HouseScript.ttf')  format('truetype'), url('SignPainter-HouseScript.svg#SignPainter-HouseScript') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+#main-menu ul li a{
+	font-family: 'Pacifico';
+	-webkit-font-smoothing: antialiased;
+	    font-size: 25px;
+}
+
+a.mega-menu-link:hover {
+    color: #FFFFFF !important;
+}
+
+// h2{
+//     font-family: 'SignPainter-HouseScript' !important;
+//     -webkit-font-smoothing: antialiased;
+// }
+
+.titulo-azul{
+	color:#F06625;
+	position: relative;
+	font-size: 50px;
+}
+
+
+.titulo-azul:after{
+    content: "";
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -35px;
+    background: #F06625;;
+}
+.titulo-naranja{
+	color:#F26525;
+	font-size: 50px;
+}
+.titulonaranja:after {
+    content: "";
+    width: 177px;
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+    margin-left: -35px;
+    background: #F26525;
+}
+.naranja{color: #F26525}
+
+.titulo-naranja:after{
+    content: "";
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -35px;
+    background: #F26525;
+}
+
+#full-screen{
+    height: 100vh;
+}
+
+li:visited {
+    color: blue !important;
+}
+
+.mega-current-menu-item {
+    background-color: transparent !important;
+    color: orange !important;
+}
+
+.is-sticky .mega-current-menu-item{
+	background-color: transparent;
+}
+
+::selection {
+    background: #FFFFFF !important;
+}
+
+/*#header.center-header {
+    padding-top: 15%;
+}
+
+@media (max-height:750px) {
+
+    #header.center-header {
+        padding-top: 10%;
+    }
+
+}
+@media (max-height: 520px){
+    #header.center-header {
+        padding-top: 2%;
+    }
+}*/
+
+.menu-titulo h3{
+    font-family: 'SignPainter-HouseScript';
+    font-size: 47px;
+}
+
+.hermione{
+    font-family: 'SignPainter-HouseScript';
+}
+
+.canter h3{
+    font-family: 'canterbold';
+}
+
+.canter{
+    font-family: 'canterbold';
+}
+
+.menufont{
+    font-family: 'NexaRustSlab-BlackShadow01';
+}
+/*#main-menu ul li a{
+    font-family: 'canterbold';
+}*/
+
+
+a.big-logo {
+    /* background: #333; */
+    display: block;
+    margin: 0 auto;
+    width: 422px;
+}
+
+h3{
+	font-size: 33px;
+}
+
+.gold-color h3{
+    color: #A87C2B;
+}
+
+
+p{
+     font-family: Futura, 'Montserrat', sans-serif;
+}
+span.welcome{
+     font-family: Futura, 'Montserrat', sans-serif;
+    // font-family: 'LetterGothicStd-Bold';
+    font-style: normal;
+}
+.marco{
+    border-style: solid;
+    border-width: 38px 30px 30px;
+    -moz-border-image: url("marco-border.png") 38 30 30 repeat;
+    -webkit-border-image: url("marco-border.png") 38 30 30 repeat;
+    -o-border-image: url("marco-border.png") 38 30 30 repeat;
+    border-image: url("marco-border.png") 38 30 30 fill repeat;
+    padding: 5px 10px;
+}
+
+.marco-menu{
+    border-style: solid;
+    border-width: 38px 30px 30px;
+    -moz-border-image: url("marco-border.png") 38 30 30 repeat;
+    -webkit-border-image: url("marco-border.png") 38 30 30 repeat;
+    -o-border-image: url("marco-border.png") 38 30 30 repeat;
+    border-image: url("marco-border.png") 38 30 30 fill repeat;
+}
+
+
+
+
+#menu-row{
+	padding: 40px 0 190px;
+}
+
+#menu-row .container{
+        border-style: solid;
+    border-width: 38px 30px 30px;
+    -moz-border-image: url("marco-border.png") 38 30 30 repeat;
+    -webkit-border-image: url("marco-border.png") 38 30 30 repeat;
+    -o-border-image: url("marco-border.png") 38 30 30 repeat;
+    border-image: url("marco-border.png") 38 30 30 fill repeat;
+    background: #fff;
+    padding: 0 0 30px;
+    z-index: 10;
+    position: relative;
+}
+
+
+
+.menu-col{
+    text-align: center;
+}
+#menu-row h3{
+	font-family: 'Pacifico';
+	// font-family: Futura, 'Montserrat', sans-serif;
+    color:#01aaad;
+    -webkit-font-smoothing: antialiased;
+}
+
+.lofuerte{
+        margin-top: -60px;
+    background: #fff;
+}
+
+#menu-row h4{
+    color:#F26525;
+    font-family: 'Pacifico';
+    font-size: 26px;
+    line-height: 34px;
+}
+
+#menu-row p{
+   font-family: Futura, 'Montserrat', sans-serif;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    line-height: 29px;
+}
+#menu-row span.nota{
+text-transform: lowercase;
+    font-size: 14px;
+    line-height: 5px;
+}
+
+#content{
+    overflow: hidden;
+}
+
+.is-sticky #mega-menu-wrap-top-menu {
+    border: none;
+    background-color: transparent;
+    border-top: white;
+    border-top-style: double !important;
+    border-bottom: white !important;
+    border-bottom-style: double !important;
+}
+
+.is-sticky .mega-menu-wrap{
+ border-top: none;
+    border-bottom: none;
+    margin-top: 20px !important;     
+}
+
+.head_title i{
+    color: #6B6B6B !important;
+}
+.head-title{
+        margin-bottom: 49px;
+}
+.dark .head_title i {
+    color: #FFF !important;
+}
+.owl-theme .owl-controls .owl-page span{
+	background: #957B2C;
+}
+.owl-theme .owl-controls .owl-page.active span{
+	background: #957B2C;
+}
+/*.owl-carousel .owl-wrapper-outer{
+    box-shadow: 0 0 50px #6F5D4D;
+}*/
+span.welcome:before, span.welcome:after{
+	border-bottom: 2px solid #957B2C;
+}
+#header-sticky-wrapper.is-sticky #header{
+	height: 120px;
+    background-color: #F06625;
+    position: fixed !important;
+}
+#header-sticky-wrapper.is-sticky #header.header-bottom{
+	height: 120px;
+}
+/*#header.center-header {
+    padding-top: 19%;
+}*/
+.is-sticky #header.header-center .wrap-menu-cart{
+    margin-top: 30px;
+}
+.texto-marco{
+	background-image: url('http://clientes.concepthaus.mx/laotra/wp-content/uploads/2015/11/marco2.png');
+	background-size:100% 100%; 
+}
+.texto-marco{
+	padding: 30px;
+}
+
+.is-sticky #header.center-header .wrap-menu-cart #main-menu{
+	margin-top: 28px;
+}
+
+// #skipper-slider{
+//         border: 10px solid #fff;
+// }
+
+.agave{
+	margin-bottom: -25px !important; 
+}
+
+/*.overflow{
+	overflow: hidden !important;
+}*/
+
+.lefty-image .wpb_wrapper .vc_box_border_chino{
+	margin-right: -180px;
+	margin-top: -50px;
+}
+.righty-image{
+	    position: relative;
+    z-index: 1;
+    left: -90px;
+}
+
+.righty-image .wpb_wrapper .vc_box_border_chino{
+    margin-top: -50px;
+}
+.image-shadow{
+	position: relative;z-index: 4;
+	box-shadow: 0px 0px 40px #333;
+}
+
+#fotos{
+	padding-bottom: 100px;
+	position: relative;
+	z-index: 3;
+}
+
+#footer{
+	background: url('http://clientes.concepthaus.mx/laroqueta/wp-content/uploads/2016/03/footer.jpg');
+	text-align:center;
+	padding: 50px 0;
+	background-size: cover;
+}
+#footer a{
+	color: #fff;
+}
+
+
+#footer a i {
+	font-size: 20px;
+	margin: 0 4px;
+}
+
+#footer .container .row{
+	border:3px solid #fff;
+}
+#footer .container .row .col-md-4{
+	padding: 0;
+}
+#footer .col-md-4:nth-child(2){
+	border-left: 3px solid #fff;
+	border-right: 3px solid #fff;
+}
+
+#footer-logo{
+	max-width: 70%;
+	margin: 0 auto;
+	display: block;
+}
+
+#footer h3{
+	font-family: 'Pacifico';
+	-webkit-font-smoothing: antialiased;
+        margin-top: 10px;
+}
+
+#footer p{
+	color:white !important;
+}
+
+#indiana-logo img{
+    margin: 50px auto 0;
+    width: 210px;
+}
+
+// .direccion:first-child{
+// 	border-bottom:3px solid white;
+// }
+
+.direccion{
+    padding-top: 20px;
+}
+
+#scroll_up{
+	border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.white-bg{
+	background-color:#fff; 
+    background-position: 0 0 !important;
+    background-repeat: repeat !important;
+	position: relative;
+	z-index: 8;
+	box-shadow: 0 0 30px #8A8A7C;
+	height: 100%;
+}
+
+.marco h2{
+	margin-bottom: 40px !important;
+    margin-top: 0px;
+}
+
+.video{
+	z-index: 1 !important;
+}
+
+.molca img{
+	margin-top:60px;
+}
+.sope img{
+	    margin-top: 140px;
+}
+
+.molcajete, .chapulin{
+	margin-top: 340px !important;
+}
+
+.chapulin img{
+	    margin-top: 120px;
+}
+
+.beans{
+    right: 0px;
+}
+
+.molcajete{
+        right: -50px;
+}
+
+.cheers{
+	    top: 170px !important;
+    right: 0 !important;
+}
+
+.cheers2{
+	    top: 170px !important;
+    left: 0 !important;
+}
+.tequila{
+    position: absolute;
+    left: -290px;
+    top: 333px;
+    max-width: 200px;
+}
+.ron{
+    position: absolute;
+    right: -290px;
+    top: 70px;
+}
+
+.post-category{
+    display: none;
+}
+/*
+
+#contactofondo .row{
+    border-style: solid;
+    border-width: 38px 30px 30px;
+    -moz-border-image: url("marco-border.png") 38 30 30 repeat;
+    -webkit-border-image: url("marco-border.png") 38 30 30 repeat;
+    -o-border-image: url("marco-border.png") 38 30 30 repeat;
+    border-image: url("marco-border.png") 38 30 30 fill repeat;
+    box-shadow: 0 0 30px #131313;
+    padding-bottom:40px;
+    background: url("http://clientes.concepthaus.mx/laotra/wp-content/uploads/2015/11/pattern.jpg");
+}
+
+
+.form-control{
+    display: block;
+    width: 100%;
+    height: 42px;
+    padding: 36px 10px 25px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: transparent;
+    background-image: url("http://clientes.concepthaus.mx/laotra/wp-content/uploads/2015/11/fomrulario-bg.png");
+    background-position: top left;
+    background-repeat: no-repeat;    
+    border-top: 0px solid #dddddd;
+    border-left: 2px solid #dddddd;
+    border-right: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    box-shadow: none;
+    -webkit-transition: none;
+    transition: none;
+}
+textarea{
+	min-height: 70px;
+    resize: none;
+    display: block;
+    width: 100%;
+   	padding: 36px 10px 25px;
+    line-height: 1.42857143;
+    color: #515151;
+    background-color: transparent;
+    background-image: url("http://clientes.concepthaus.mx/laotra/wp-content/uploads/2015/11/fomrulario-bg.png");
+    background-position: top left;
+    background-repeat: no-repeat; 
+     border-top: 0px solid #dddddd;
+    border-left: 2px solid #dddddd;
+    border-right: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+    -webkit-border-radius: 0,;
+    -moz-border-radius: 0,;
+    -o-border-radius: 0,;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    max-height: 120px;
+}
+h4.formulario-text {
+    text-transform: uppercase;
+    position: absolute;
+    top: -19px;
+    left: 42px;
+    font-size: 22px;
+}
+
+*/
+
+#header-sticky-wrapper.is-sticky #header #mega-menu-wrap-top-menu #mega-menu-top-menu > li.mega-menu-item > a{
+	color: #FFF !important;
+	font-size: 21px;
+}
+
+.realtive{
+	position: relative !important;
+}
+.realtive h4.formulario-text{
+	    left: 26px;
+	}
+.btn{
+	float: right;
+	background: transparent;
+	 border: 2px solid #dddddd;
+	 padding: 10px 30px;
+	 text-transform: uppercase;
+	  -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+
+.contacto-titulo, .wpcf7-form-control-wrap{
+    float: left;
+}
+
+.wpcf7-form-control-wrap{
+    width: 85%;
+}
+
+.contacto-titulo{
+    font-family: 'Pacifico';
+    font-size: 25px;
+    -webkit-font-smoothing: antialiased;
+    width: 15%;
+}
+input, textarea{
+    width: 100%;
+    border:none;
+    background: #f1f1f1;
+    border-radius: 0;
+    padding: 3px 10px;
+}
+.prettyMapList .mapHolder{
+    height: 560px !important;
+}
+
+.wpcf7 input[type="submit"]{
+    font-family: 'Pacifico';
+    -webkit-font-smoothing: antialiased;
+    background: #01aaad;
+    max-width: 140px;
+    float: right;
+    font-size: 25px;
+    color: white;
+}
+
+.wpcf7 textarea, .contact-form textarea {
+    height: 100px !important;
+    min-height: 100px !important;
+}
+#ListContainer{
+        display: none;
+}
+.prettyMapList .mapHolder{
+    margin-bottom: 0 !important;
+        border-top: 5px solid #F06625 !important;
+        border-bottom: 5px solid #F06625 !important;
+}
+
+.line-contact{
+    clear: both;
+}
+
+#logo-only{
+    position: absolute;
+    z-index: 100;
+    top: 8%;
+    left: 50%;
+    margin-left: -178px;
+}
+
+.mint-borders{
+ border-top:6px solid #8EBBBD;
+  border-bottom:6px solid #8EBBBD;
+}
+
+.btn:hover, .btn:active, .btn:focus{
+	color: #fff;
+    background: #957B2C;
+}
+.vino-blanco{
+    position: absolute;
+    bottom: -330px;
+    left: -120px;
+}
+
+.vino-rosado{
+    position: absolute;
+    bottom: -330px;
+    right: -120px;
+}
+
+.slider-content, .post-cats, .masonary_blog figure i, .post-meta, #comments{
+    display: none;
+}
+
+
+.blog #wrapper #content{
+     background: url("http://clientes.concepthaus.mx/laotra/wp-content/uploads/2015/11/pattern.jpg") !important;
+     border-top:5px solid #957B2C;
+    
+}
+.single-post #wrapper #content{
+   background: url("http://clientes.concepthaus.mx/laotra/wp-content/uploads/2015/11/pattern.jpg");
+}
+
+.social-share ul li:last-child{
+    
+    display: none;
+}
+#sb_instagram{
+	    z-index: 6;
+    position: relative;
+}
+
+.header-bottom{
+	margin-top: -80px;
+	// background: #fff;
+	// z-index: 99999;
+	// position: relative;
+}
+
+.is-sticky .header-bottom{
+	margin-top: 0px;
+}
+
+#logo img{
+	// height: 100px;
+}
+
+#footer p {
+    color: #ADADAD;
+}
+.blog-main-content .blog-img{display: none;}
+.blog_list .blog-main-content .blog-img{display: inherit;}
+section#top-skipper-slider:before {
+    position: absolute;
+    width: 100%;
+    height: 2000px;
+    background: rgba(153, 153, 153, 0);
+    content: "";
+    z-index: 53;
+}
+
+.poweredby{
+    font-size: 11px;
+    margin-top: 40px;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.dias{display: block; float: left;}
+.horas{display: bloack; float: right;}
+#horarios{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.rama1, .rama2, .limon, .pescado, .ostion, .langosta, .cangrejo, .camaron, .calamar, .almeja {
+	position: absolute;
+	z-index: 2;
+}
+.rama1{
+    top: 1330px;
+    left: -120px;
+}
+.rama2{
+    top: 1301px;
+    right: -140px;
+}
+
+.limon{
+    top: 1600px;
+    right: -90px;
+}
+
+.pescado{
+	    top: 1920px;
+    right: -110px;
+}
+
+.ostion{
+    left: 310px;
+    top: 1940px;
+}
+.langosta{
+    top: 1590px;
+    left: -183px;
+}
+.langosta img{
+	width: 450px;
+}
+.cangrejo{
+    top: 650px;
+    right: -260px;
+}
+.camaron{
+    top: 230px;
+    left: -130px;
+}
+.calamar{
+    top: 630px;
+    left: -160px;
+}
+.almeja{
+    right: -180px;
+    top: 230px;
+    }
+
+
+@media screen and (max-width: 479px){
+    div#main-menu-trigger {
+        left: 0 !important;
+    }
+}
+
+@media(max-width: 1500px){
+    .molcajete{
+        right: -220px;
+    }
+    .chapulin{
+        left: -150px;
+    }
+    .chile{
+        left: -120px; 
+    }
+    .beans{
+        right: -70px;
+    }
+}
+@media(max-width: 1300px){
+    .chile, .beans{
+        display: none;
+    }
+    .pescado{
+    	top: 1970px;
+    right: -60px;
+    }
+}
+@media(max-width: 1200px){
+    .head_title h2 {
+        font-size: 31px;
+    }
+    .molca img{
+    	    margin-top: 160px;
+    		margin-right: -60px;
+    }
+    .sope img{
+    	    margin-top: 230px;
+    	margin-left: -90px;
+    }
+        #menu-row h3{
+            font-size: 28px;
+            boreder:1px solid red;
+    }
+    #main-menu ul li a {
+    font-size: 21px !important;
+}
+    .camaron{
+    	    top: 300px;
+    left: -100px;
+    }
+    .langosta{
+    	    top: 1940px;
+    }
+    .rama1{
+    	    top: 1530px;
+    }
+    .calamar{
+        top: 780px;
+    }
+    .almeja{
+    	right: -130px;
+    top: 230px;
+    }
+    .pescado{
+    	    top: 2290px;
+    }
+    .ostion{
+	    right: -50px;
+	    left: inherit;
+	    top: 1970px;
+    }
+}
+
+@media(max-width: 1160px){
+    .chapulin{
+        left: -250px;
+    }
+
+}
+@media(max-width: 1025px){
+                #paralax{
+        -webkit-background-attachment: scroll !important; 
+        background-attachment: scroll !important; 
+    }
+    #main-menu ul li a{
+    	font-size: 25px !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 991px){
+	#header.center-header #logo img {
+	    max-height: 270px;
+	}
+	#header.header-transparent, #header, #header-wrap {
+    background-color: #F06625 !important;
+        position: fixed !important;
+}
+
+	.is-sticky #mega-menu-wrap-top-menu {
+    border-top-style: none !important;
+    border-bottom-style: none !important;
+}
+	.is-sticky #header.center-header .wrap-menu-cart {
+    float: initial;
+}
+	#logo-only{
+		display: none;
+	}
+	.header-bottom{
+		margin-top: 0px;
+	}
+    #logo a.small-logo img, #logo a.big-logo img  {
+        max-height: 80px;
+    }
+	.rama1, .rama2, .limon, .pescado, .ostion, .langosta, .cangrejo, .camaron, .calamar, .almeja {
+		display: none;
+	}
+	#menu-row{
+		padding: 40px 0 40px;
+	}
+
+	#logo{ 
+	    padding: 0px 0 !important;
+	}
+	.realtive h4.formulario-text{
+	    left: 26px;
+	}
+    span.welcome:before, span.welcome:after{
+            width: 20px;
+    }
+    .vino-blanco, .vino-rosado{
+        display: none;
+    }
+    .is-sticky #header.center-header #logo{
+        float: inherit;
+    }
+    .texto-marco{
+        background-image: url('http://clientes.concepthaus.mx/laotra/wp-content/uploads/2015/11/marco3.png')
+    }
+
+    .molca{
+        top:-110px;
+        display: block !important;
+    }
+    .sope{
+        top: 10px;
+        display: block !important;
+    }
+	#footer h3{
+		margin-top: 0 !important;
+	}
+	#header.center-header {
+		padding-top: 0 !important;
+	}
+	#content{
+		    padding-top: 110px;
+	}
+	/*#top-skipper-slider{
+		display: none;
+	}*/
+	    #main-menu ul li a{
+    	font-size: 16px !important;
+    }
+}
+
+
+
+
+@media(max-width: 767px){
+	 .big-logo img{
+	 	max-height: 80px !important;
+	 }
+    #header.white-header.header-bottom #logo, #header.dark-header.header-bottom #logo {
+        display: inline-block;
+        padding: 10px 0 !important;
+        width: auto !important;
+    }
+    .top-slider:before{
+        width: 100%;
+        height: 2000px;
+        position: absolute;
+        z-index: 30;
+        background: rgba(0,0,0,0.4);
+        content: "";
+    }
+    .padding-100 {
+        padding-top : 30px;
+        padding-bottom: 50px;
+    }
+    .padding-t-80 {
+        padding-top: 30px;
+    }
+
+    .sbi_item:nth-child(n+5){
+        display: none !important;
+
+    }
+    .contacto-titulo, .wpcf7-form-control-wrap {
+        width: 100%;
+    }
+    .small-logo img {
+        width: 200px;
+        margin-top: 10px !important;
+        padding-bottom: 19px;
+    }
+    #footer .col-md-4:nth-child(2){
+		border-left: 0px solid #fff;
+		border-right: 0px solid #fff;
+		border-top: 3px solid #fff;
+		border-bottom: 3px solid #fff;
+	}
+	.coral-left, .coral-right{
+		display: none;
+	}
+
+}
+@media(max-width: 670px){
+    .molca{
+        top: -50px;
+    }
+    .sope{
+        display: none !important;
+    }
+    .titulo-naranja, .titulo-azul{
+            font-size: 60px;
+    }
+}
+@media(max-width: 450px){
+    #logo img {
+	    // height: 70px;
+	}
+	a.big-logo {
+	    width: 100%;
+	}
+}
+
+.small-logo img{
+    max-height: 99px !important;
+    padding: 12px;
+}
+
+
+.blog_row{
+    display: none;
+}
+
+.blog-full-width:after{
+    content: '- COMING SOON -';
+    text-align: center;
+    font-size:28px;
+    display: block;
+        font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+

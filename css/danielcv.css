@@ -18,6 +18,7 @@ hr.style-seven:before { /* Not really supposed to work, but does */ display: blo
     content: ""; height: 30px; margin-top: -31px; border-style: solid; border-color: black;
     border-width: 0 0 1px 0; border-radius: 20px; }
 .centrarImg{margin: 0 auto; display: block;}
+a{text-decoration: none !important;}
 
 /*estilos eslaider principal*/
 .slideTitle{font-size: 3rem;}
@@ -110,10 +111,10 @@ text.timer {fill: white; }
 .porta li {text-align: center; height: 30px; margin-right: 3px; padding: 2px;
     text-indent: 0; border-radius: 15px; background-color: #02619a !important;
     bottom: -10px; color: #fff; }
-.itemTitle{background-color: rgba(255, 255, 255, 0.7); position: absolute; margin-top: -38px;
-    width: 100%; padding: 0px 20px; font-weight: 600;}
+.itemTitle{background-color: rgba(0, 99, 132, 0.80); position: absolute; margin-top: -23px;
+    width: 21.9rem; padding: 0px 20px; font-weight: 600;font-size: 1.3rem; color: #fff;}
 .itemPar{padding: 2px 13px;}
-.btn-outline-primary{font-weight: 600;margin: 0 auto; display: block;}
+.btn-outline-primary{font-weight: 600;margin: 0 auto; display: block;margin-top: 20px;}
 .marBot{margin-bottom: 20px;}
 a#controlsPortaD.carousel-control-next,
 a#controlsPortaD.carousel-control-prev {background-color: #00c0ff; width: 5%; margin-right: -55px;

@@ -1,0 +1,867 @@
+/* ==========================================================================
+   Marcavidas css
+   ========================================================================== */
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+div#header{
+    text-align: center;
+    padding: 30px;
+    color: #000;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*.container-fluid {
+    padding-left: 19%;
+}
+*/
+
+#menu-list{
+        margin: 0 auto;
+    display: block;
+    width: 788px;
+    float: inherit;
+}
+
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    position: absolute;
+    top: 128px;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-fixed-top{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+img#icono {
+    margin-right: 25%;
+    margin-top: -1%;
+}
+
+img#logo {
+    margin-right: 25%;
+    margin-top: -1%;
+}
+
+img#lupa {
+    margin-right: -2%;
+    margin-top: 0%;
+}
+
+header.container-fluid{
+    border-bottom: solid #000 8px;
+}
+
+.montserrat{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.borders:after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.borders:before{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.bordersb:after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: -10px;
+    left: 57%;
+    margin-left: -50px;
+}
+
+.bordersb:before{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 515px;
+    left: 57%;
+    margin-left: -50px;
+}
+
+.borderse:after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.borderse:before{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+img#repu {
+    margin-top: 25px;
+    height: 220px;
+}
+
+.bordersetea:after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: 21px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.borderseteb:before{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    bottom: 206px;
+    left: 50%;
+    margin-left: -50px;
+}
+	
+
+/* ==========================================================================
+   Body
+   ========================================================================== */
+
+.carousel-inner>.item>img {
+    width: 100%;
+}
+
+.container {
+    width: 780px;
+}
+
+#raiz {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+}
+
+img#magueysito {
+    height: 250px;
+    margin-top: 100px;
+}
+
+div#oaxaca {
+    font-size: 70px;
+}
+
+section#botellota {
+    background-color: #000;
+    color: #fff;
+    padding-top: 58px;
+    padding-bottom: 17px;
+}
+
+div#contrastes {
+    text-align: center;
+}
+
+div#rituales {
+    text-align: center;
+    margin-bottom: 54px;
+    margin-top: 82px;
+}
+/*
+a#cuadro {
+    border: 2px solid black;
+    padding: 3%;
+    text-align: center;
+    line-height: 26px;
+    width: 15%;
+    margin-left: 2%;
+    color: #000
+}
+
+a#cuadro2 {
+    border: 2px solid black;
+    padding: 23px;
+    text-align: center;
+    line-height: 26px;
+    width: 15%;
+    margin-left: 2%;
+    padding-bottom: 44px;
+    padding-top: 41px;
+    color: #000
+}
+
+a#cuadro3 {
+    border: 2px solid black;
+    padding: 35px;
+    text-align: center;
+    line-height: 26px;
+    width: 15%;
+    margin-left: 2%;
+    padding-bottom: 41px;
+    padding-top: 44px;
+    color: #000
+}
+
+a#cuadro4 {
+    border: 2px solid black;
+    padding: 41px;
+    text-align: center;
+    line-height: 26px;
+    width: 15%;
+    margin-left: 2%;
+    padding-bottom: 52px;
+    padding-top: 59px;
+    color: #000
+}
+*/
+#cuadritos{
+	margin: 0;
+}
+
+#cuadritos a{
+    border: 1px solid #000;
+    text-align: center;
+    min-height: 148px;
+    display: block;
+    margin-right: -23px;
+    padding: 0px;
+    padding-top: 52px;
+    color: #000;
+}
+
+#cuadro4{
+	padding-top: 61px !important;
+}
+
+div#tienda {
+    text-align: center;
+    padding-top: 11%;
+    display: block;
+}
+
+#nuestra{
+    text-align: right;
+}
+
+img#botellita {
+    height: 278px;
+    margin: 25px auto;
+    display: block;
+}
+
+span#encuentralaexperiencia {
+    font-weight: 100;
+    font-size: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+#exp{
+    font-family: 'Lato', sans-serif;
+}
+
+#line{
+    font-family: 'Lato', sans-serif;
+}
+
+span#tambien {
+    font-weight: 100;
+    font-size: 19px;
+    font-family: 'Lato', sans-serif;
+}
+
+img#bag {
+    height: 230px;
+    margin-left: -41px;
+    border-radius: 0;
+}
+/*
+div#cuadritos {
+    margin-left: 24%;
+    margin-right: 0;
+}
+*/
+div#copita {
+    margin-left: 31%;
+}
+
+div#vaso {
+}
+
+div#copitas {
+    margin-left: -9%;
+}
+
+img#pico {
+    margin-left: 40%;
+    height: 90px;
+    margin-top: 115px;
+}
+
+img#niños {
+    margin-top: 8%;
+    height: 300px;
+}
+
+.btn-default {
+    font-size: 19px;
+}
+
+img#boterojita {
+    height: 500px;
+}
+
+img#botered {
+    height: 600px;
+    margin-top: -36px;
+    margin-left: 62px;
+}
+
+span#rito{
+    font-size: 65px;
+    font-family: 'Oswald', sans-serif;
+}
+
+p#p2 {
+    padding-top: 16px;
+}
+
+span#contra {
+    font-size: 84px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h4#titmarca {
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+h4#afro {
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+    width: 183px;
+}
+
+h4#cuatro {
+    
+    text-align: center;
+    padding-bottom: 14px;
+}
+
+h4#cuatrote {
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    display: block;
+    margin: 0px auto;
+    width: 152px;
+}
+
+span#ana {
+    font-size: 60px;
+    margin-left: 24%;
+    font-family: 'Oswald', sans-serif;
+}
+
+img#premium {
+    height: 500px;
+    margin-left: 20%;
+    margin-top: 35px;
+}
+
+a{
+  cursor: pointer;
+}
+
+div#juan, #molesto{
+	margin-right: 0;
+}
+
+section#oaxaca {
+    background-image: url(../website/fondo-oaxaca.jpg);
+    background-repeat: no-repeat;
+    background-position: right 0px top -165px;
+    background-size: inherit;
+    margin-right: 0;
+    padding-bottom: 0px;
+    padding-top: 72px;
+}
+
+#fondito {
+    padding-top: 44px;
+    background-image: url(../website/agave-ilustracion.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: right 335px top 187px;
+}
+
+section#textura{
+    background-image: url(../website/textura.jpg);
+    padding-top: 63px;
+}
+
+img#dita {
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+}
+
+img#lita {
+    height: 165px;
+    margin: 68px auto 0;
+    display: block;
+}
+
+img#sour {
+    height: 228px;
+}
+
+#texcopa1 {
+    text-align: center;
+    font-size: 37px;
+    font-family: 'oswald', sans-serif;
+}
+
+#texcopa2 {
+    font-size: 37px;
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+}
+
+span#texcopa3 {
+    font-size: 37px;
+    font-family: 'oswald', sans-serif;
+}
+
+h4#aspecto {
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto 10px;
+    display: block;
+    width: 191px;
+}
+
+div#nubes {
+    background-image: url(../website/nubes.png);
+    background-repeat: no-repeat;
+    background-position: right -78px top -67px;
+    background-size: inherit;
+    margin-bottom: 0px;
+}
+
+a.textito {
+    font-size: 10px;
+    margin-right: 30px;
+}
+
+a#textito:hover {
+    text-decoration: underline;
+}
+
+section#conraiz {
+    padding-top: 23px;
+    padding-bottom: 26%;
+    background-image: url(../website/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom 0px center;
+    background-size: contain;
+}
+
+img#fondo{
+
+}
+
+.full-image{
+    padding: 0;
+}
+.full-image img{
+    width: 100%;
+}
+
+img#botellan {
+    margin: -180px auto;
+    max-width: 200px;
+}
+
+img#circulo {
+    height: 44px;
+    margin-top: -11px;
+}
+
+h4#cuando {
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    margin: 86px auto 10px;
+    display: block;
+    width: 132px;
+}
+
+.justificar{
+	text-align: justify;
+}
+
+h4#filo {
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+    margin: -23px auto 10px;
+    display: block;
+    width: 126px;
+}
+
+p#pfilo {
+}
+
+h4#region {
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    margin: 0 auto 10px;
+    width: 131px;
+}
+
+span#juan {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p#titleoaxaca {
+    font-size: 70px;
+    text-align: center;
+    margin-top: -25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+a#face {
+    color: #fff;
+}
+
+a#insta {
+    color: #fff;
+}
+
+span#marca {
+	font-size: 34px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+ade {
+    text-align: center;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer.container-fluid{
+	padding: 233px 15px 20px;
+    color: #fff;
+    text-align: center;
+    background-image: url(../website/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #232122;
+    margin-right: 0;
+}
+
+p#marcados {
+    margin: -59px;
+}
+
+div#aviso {
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+a#face, #insta {
+    border: 1px solid #fff;
+    border-radius: 0;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 4px;
+    padding-left: 7px;
+}
+
+#face {
+    padding-left: 9px !important;
+}
+
+a#priva{
+    color: #fff;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding: 7px 15px;
+    margin: 0 7px;
+}
+
+#cuadros-wrapper{
+    width: 624px;
+    margin: 0 auto;
+}
+
+.cuadros-modales{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    display: inline-block;
+    float: left;
+    margin: 0 3px;
+    text-align: center;
+    padding-top: 48px;
+    color: #000;
+     transition:all ease 600ms;
+}
+.cuadros-modales:hover{
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   Media Querie 990
+   ========================================================================== */
+
+@media (max-width: 990px){
+
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    position: absolute;
+    top: 131px;
+    width: 100%;
+    z-index: 1;
+}
+
+#fondito {
+    background-position: right 193px top 187px;
+}
+
+/* ==========================================================================
+   Media Querie 767
+   ========================================================================== */
+
+@media (max-width: 767px) {
+
+img#logo {
+    height: 50px;
+}
+
+.navbar-default {
+    top: 109px;
+}
+
+img#botellan {
+    margin: -180px 264px auto;
+    max-width: 200px;
+}
+
+img#magueysito {
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+}
+
+section#oaxaca {
+    padding-top: 40px;
+}
+
+span#juan { 
+    text-align: center;
+    display: block;
+}
+
+.bordersetea:after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.borderseteb:before {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    bottom: 104px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+img#pico {
+    height: 90px;
+    padding-top: 17px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+img#niños {
+    height: 210px;
+    margin: 0 auto;
+    display: block;
+}
+
+span#ana {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin: 54px auto;
+    display: block;
+}
+
+.bordersb:after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: -18px;
+    left: 51%;
+    margin-left: -50px;
+}
+
+.bordersb:before {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 536px;
+    left: 51%;
+    margin-left: -50px;
+}
+
+img#premium {
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+img#boterojita {
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+#texcopa1 {
+    text-align: center;
+    font-size: 37px;
+    font-family: 'oswald', sans-serif;
+    margin-top: 42px;
+}
+
+span#texcopa3 {
+    font-size: 37px;
+    font-family: 'oswald', sans-serif;
+    display: block;
+    text-align: center;
+}
+
+img#sour {
+    height: 228px;
+    margin: 0 auto;
+    display: block;
+}
+
+img#botered {
+    display: none;
+}
+
+#fondito {
+    padding-top: 0px;
+    background-position: right 79px top 107px;
+}
+
+#direc{
+    margin: 0 auto;
+    display: block;
+}
+
+span#encuentralaexperiencia {
+    font-weight: 100;
+    font-size: 26px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    display: block;
+}
+
+}
+
+@media (max-width: 600px) {
+
+{background-color:yellow;}
+
+}
+
+@media (max-width: 480px) {
+
+{background-color:cyan;}
+
+}
+
+@media (max-width: 320px) {
+
+{background-color:magenta;}
+
+}

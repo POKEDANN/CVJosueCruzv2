@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="myMenuApp">
+
+  <head>
+    <script data-require="lodash.js@3.5.0" data-semver="3.5.0" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.js"></script>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'>
+    <link data-require="angular-material@0.11.4" data-semver="0.11.4" rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.11.4/angular-material.min.css" />
+    <link data-require="font-awesome@4.3.0" data-semver="4.3.0" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <header>
+        <img src="img/logo.svg">
+        <a href="http://lomalinda.com.mx/"><img src="img/web-page-home.png" class="home"></a>
+        <md-button ng-click=”togglesidenav(‘left’)” hide-gt-md aria-label=”sidenav”></md-button>
+    </header>
+  </head>
+
+  <body layout="column" ng-controller="AppCtrl">
+    <md-toolbar layout="row">
+      <div class="md-toolbar-tools">
+        <md-button ng-click="toggleSidenav('left')" hide-gt-sm class="md-icon-button">
+          <md-icon aria-label="Menu" md-svg-icon="https://s3-us-west-2.amazonaws.com/s.cdpn.io/68133/menu.svg"></md-icon>
+        </md-button>
+    <div ui-view layout layout-fill></div>
+    <script data-require="angular.js@~1.4.7" data-semver="1.4.7" src="https://code.angularjs.org/1.4.7/angular.js"></script>
+    <script data-require="angular-animate@1.4.7" data-semver="1.4.7" src="https://code.angularjs.org/1.4.7/angular-animate.js"></script>
+    <script data-require="angular-aria@1.4.7" data-semver="1.4.7" src="https://code.angularjs.org/1.4.7/angular-aria.js"></script>
+    <script data-require="angular-material@0.11.4" data-semver="0.11.4" src="https://ajax.googleapis.com/ajax/libs/angular_material/0.11.4/angular-material.min.js"></script>
+    <script data-require="ui-router@0.2.12" data-semver="0.2.15" src="//rawgit.com/angular-ui/ui-router/0.2.15/release/angular-ui-router.js"></script>
+    <!--my scripts-->
+    <script src="app.modules.js"></script>
+    <script src="menu.service.js"></script>
+    <script src="home.controller.js"></script>
+    <script src="menu_toggle.directive.js"></script>
+    <script src="menulink.directive.js"></script>
+    <script src="app.routes.js"></script>
+  </body>
+
+</html>
