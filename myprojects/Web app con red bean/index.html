@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web app con red bean</title>
+</head>
+<body>
+	<form method="post" action="report.php">
+		<h1>Inventa un pokemon</h1>
+		<p>¿Como lo imaginas?</p>
+		<select name="pokeSel" id="">
+			<option value="redondo">Redondo</option>
+			<option value="cuadrado">Cuadrado</option>
+			<option value="triangulo">Triangulo</option>
+		</select><br>
+		<p>¿De que color?</p>
+		<input type="text" name="color">
+		<br>
+		<p>¿Cuantos ataques tiene?</p>
+		<label><input type="radio" name="ataque" value="1">1</label>
+		<label><input type="radio" name="ataque" value="2">2</label>
+		<label><input type="radio" name="ataque" value="3">3</label>
+		<label><input type="radio" name="ataque" value="4">4</label>
+		<br>
+		¿Con que motivos lo usaras?<br>
+		<textarea name="motivo" cols="30" rows="10"></textarea>
+		<br>
+		<input type="submit" value="Envia tus datos">
+	</form>
+</body>
+</html>

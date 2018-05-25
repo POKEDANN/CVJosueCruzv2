@@ -1,0 +1,70 @@
+/*estilos generales*/
+.navbar {min-height: 70px;background-color: #e8e8e8;}
+body{background-color: #e8e8e8;}
+select{color: black;background-color: #fff;}
+li{color: #e51a83;}
+
+/*seccion mainBg*/
+#mainBg{background-image: url("../img/background.jpg");background-repeat: no-repeat;
+	background-size: cover;padding: 40px 0;background-position: -80px 115px;
+	background-color: #e8e8e8;}
+.vello{font-size: 50px;border-left: #e51a83 7px solid;}
+.frase{margin-left: 10px;}
+.siempre{color: #e41982;font-weight: 500;}
+.fraseDos{font-size: 22px;margin-bottom: 40px;}
+.lista{font-size: 17px;}
+.palomita{margin-right: 5px;}
+
+/*formulario*/
+.formulario{border: 2px solid #e51a83;background-color: #000;width: 290px;color: #fff;
+	border-radius: 5px;}
+.formTit{font-size: 20px;margin-top: 20px;}
+.tratBtn{color: #fff;background-color: #68c005; border-radius: 0px; margin-top: 20px;
+	font-size: 22px; padding: 8px 20px;}
+.tratBtn:hover{color: #68c005;background-color: #fff;}
+.aviso{font-size: 11px; margin-top: 60px; margin-bottom: 30px;color: #8e8e8e;}
+.rosa{color: #e41982;}
+
+/*fraseTres*/
+.fraseTres{background-color: #000; color: #fff; padding: 50px; font-size: 22px;
+	font-weight: 500;}
+
+/*1000 clientes*/
+.slog{padding: 50px 0;background-color: #fff;}
+.milC{font-size: 28px;}
+.clientesTit{font-size: 20px;}
+.clientesSlog{width: 750px;}
+.listaDos{font-size: 17px; line-height: 2;}
+.espacioB{margin-bottom: 30px;}
+
+/*responsive*/
+
+@media (max-width: 990px){
+	#mainBg{background-image: url("../img/background-tablet.jpg");background-position: -182px 23px;
+}
+
+@media (max-width: 767px){
+	#mainBg{background-image: url("../img/background-mobile.jpg");background-position: -250px 120px;}
+	.formulario{margin-left: 20px;}
+	.listaDos, .clientesTit {text-align: center;}
+}
+
+@media(max-width: 600px){
+	.vello {font-size: 40px; }
+	#mainBg {background-position: -300px 120px; }
+	.clientesSlog {width: initial; }
+}
+
+@media (max-width: 480px){
+	#mainBg{background-image: none;}
+	.vello {font-size: 33px; }
+	.lista{text-align: center;}
+	.fraseDos {margin-bottom: 20px; }
+	.formulario {margin-left: 100px; }
+}
+
+@media(max-width: 320px){
+	.formulario {margin-left: 10px; }
+	.container {width: initial; }
+	.mexico{font-size: 17px;}
+}

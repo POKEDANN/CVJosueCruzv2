@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+
+    <title>Memorama</title>
+
+    <style>
+      #tablero {
+        text-align: center;
+      }
+      #tablero > div {
+        width: calc((65% - 40px) / 4);
+        display: inline-block;
+        background: #000;
+        margin: 5px;
+        cursor: pointer;
+        transition: transform ease .3s;
+        height: 170px;
+        font-size: 60px;
+      }
+
+      #tablero > div:hover {
+        transform: scale(1.1);
+      }
+
+      .open {
+        color: #fff;
+      }
+    </style>
+
+    <!-- Inline scripts are forbidden in Firefox OS apps (CSP restrictions),
+         so we use a script file. -->
+    <script src="app.js" defer></script>
+
+  </head>
+
+  <body>
+    <!-- This code is in the public domain. Enjoy! -->
+    <h1>Martes JS</h1>
+    <h2>Funciona como un memorama de mesa real, por favor da clic en los cuadros hasta encontrar todos los pares</h2>
+
+    <div id="tablero">
+
+    </div>
+
+  </body>
+
+</html>
