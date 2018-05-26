@@ -136,91 +136,46 @@ a#controlsFreeD.carousel-control-prev {background-color: #00c0ff; width: 5%; mar
 .carMar{margin-top: 20px;}
 
 /*estilos hobbies*/
-.sfe{width: 100px;}
+.hobbies{background-color: #02609a;}
+.fuente{font-weight: 600;}
+.textoHob{font-size: 20px;}
+.azulDivision{background-color: #035f9a;}
+.sfe{width: 200px;margin: 0 auto;display: block;}
 
 /*contacto*/
-textarea, input {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
+.contacto{background-image: url("../img/blue1.png");}
+.redes{width: 40px;}
+.contra{margin-bottom: 40px;}
+.puedes{font-size: 1.2rem;}
+.btnForm {background-color: #0078ff;}
+.btnForm:hover {background-color: #01c0ff;}
+textarea, input {-moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+.row.header {padding: 1.5em 2.5em; border-bottom: 1px solid #ccc;
+  background: url(../img/tecCode2.png) left -80px;background-size: cover; color: #fff; }
+.row.body {padding: .5em 2.5em 1em; }
+.pull-right {float: right; }
+form {max-width: 100%; display: block; }
+form ul {margin: 0; padding: 0; list-style: none; }
+form ul li {margin: 0 0 0.25em 0; clear: both; display: inline-block; width: 100%; }
+form ul li:last-child {margin: 0; }
+form ul li p {margin: 0; padding: 0; float: left; }
+form ul li p.right {float: right; }
+form ul li .divider {margin: 0.5em 0 0.5em 0; border: 0; height: 1px; width: 100%;
+  display: block; background-color: #4f6fad;
+  background-image: linear-gradient(to right, #03c0ff, #03c0ff); }
+form ul li .req {color: #ee9cb4; }
+form label {display: block; margin: 0 0 0.5em 0; color: #fff; font-size: 1em; }
+form input {margin: 0 0 0.5em 0; border: 1px solid #ccc; padding: 6px 10px; color: #555;
+  font-size: 1em; }
+form textarea {border: 1px solid #ccc; padding: 6px 10px; width: 100%; color: #555; }
+form small {color: #4f6fad; margin: 0 0 0 0.5em; }
 
-.row.header {
-  padding: 1.5em 2.5em;
-  border-bottom: 1px solid #ccc;
-  background: url(https://images2.imgbox.com/a5/2e/m3lRbCCA_o.jpg) left -80px;
-  color: #fff;
-}
-.row.body {
-  padding: .5em 2.5em 1em;
-}
+/*estilos footer*/
+footer{background-color: #333; text-align: center; padding: 20px 0 10px 0;}
+.fab2{margin-right: 6rem;}
 
-.pull-right {
-  float: right;
-}
-
-form {
-  max-width: 100%;
-  display: block;
-}
-form ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-form ul li {
-  margin: 0 0 0.25em 0;
-  clear: both;
-  display: inline-block;
-  width: 100%;
-}
-form ul li:last-child {
-  margin: 0;
-}
-form ul li p {
-  margin: 0;
-  padding: 0;
-  float: left;
-}
-form ul li p.right {
-  float: right;
-}
-form ul li .divider {
-  margin: 0.5em 0 0.5em 0;
-  border: 0;
-  height: 1px;
-  width: 100%;
-  display: block;
-  background-color: #4f6fad;
-  background-image: linear-gradient(to right, #ee9cb4, #4f6fad);
-}
-form ul li .req {
-  color: #ee9cb4;
-}
-form label {
-  display: block;
-  margin: 0 0 0.5em 0;
-  color: #4f6fad;
-  font-size: 1em;
-}
-form input {
-  margin: 0 0 0.5em 0;
-  border: 1px solid #ccc;
-  padding: 6px 10px;
-  color: #555;
-  font-size: 1em;
-}
-form textarea {
-  border: 1px solid #ccc;
-  padding: 6px 10px;
-  width: 100%;
-  color: #555;
-}
-form small {
-  color: #4f6fad;
-  margin: 0 0 0 0.5em;
-}
-
+/*media queries*/
 @media screen and (max-width: 768px) {
   #timeline {
     margin: 30px;

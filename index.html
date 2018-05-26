@@ -53,7 +53,6 @@
               <h2 class="slideTitle">DANIEL CRUZ</h2>
               <p class="sentences webDev"></p>
               <a href="https://github.com/POKEDANN"><i class="fab fa-github"></i></a>
-              <a href="https://bitbucket.org/POKEDANN/"><i class="fab fa-bitbucket" aria-hidden="true"></i></a>
               <a href="https://www.facebook.com/DanielCruzCV/"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
               <a href="http://stackoverflow.com/users/5848819/pokedann"><i class="fab fa-stack-overflow" aria-hidden="true"></i></a>
               <a href="https://www.linkedin.com/in/daniel-cruz-cv"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
@@ -251,7 +250,7 @@
     <!-- skills ends -->
 
     <!-- carrusel portafolios -->
-    <section>
+    <section class="code">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -389,7 +388,7 @@
     <!-- carrusel portafolios -->
 
     <!-- carrusel freelance -->
-    <section>
+    <section class="code">
       <hr class="style-seven">
       <div class="container">
         <div class="row">
@@ -519,9 +518,9 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <h2 class="profile">MIS HOBBIES</h2>
-            <hr class="style-three">
-            <p class="text-center">¡Me encanta escribir! es por eso que ahora ando redactando una novela llamada <u>"En busca de la Eternidad"</u>, puedes leerla en el siguiente enlace:</p>
+            <h2 class="profile text-center blanco fuente">MIS HOBBIES</h2>
+            <hr class="style-three azulDivision">
+            <p class="text-center blanco textoHob">¡Me encanta escribir! Es por eso que ahora ando redactando una novela llamada <u>"En busca de la Eternidad"</u>, para poder leerla puedes dar clic en la siguiente imagen:</p>
             <a href="https://www.wattpad.com/myworks/93674057-en-busca-de-la-eternidad-primer-libro"><img class="sfe" src="img/portadaSFEweb.png"></a>
           </div>
         </div>
@@ -530,47 +529,51 @@
     <!-- hobbies -->
 
     <!-- contacto -->
-    <section>
+    <section class="contacto blanco">
       <div class="container">
         <div class="row">
+          <div class="col-sm-12">
+            <h2 class="perfilTitle text-center contra">¡CONTRATAME!</h2>
+          </div>
+        </div>
+        <div class="row">
           <div class="col-sm-6">
-            <img src="img/whats.png" style="width: 100px;"> 55-49-38-88-15 <br><br>
-            <img src="img/gmail.png" style="width: 100px;"> cruzmmh@gmail.com <br><br>
-            <img src="img/facebook.png" style="width: 100px;"> https://www.facebook.com/DanielCruzCV/ <br><br>
-            <img src="img/linkedin.png" style="width: 100px;"> https://www.linkedin.com/in/daniel-cruz-cv <br><br>
+            <p class="puedes">Puedes contactarme por medio de las siguientes redes sociales:</p>
+            <img src="img/whats.png" class="redes"> 55-49-38-88-15 <br><br>
+            <img src="img/gmail.png" class="redes"> cruzmmh@gmail.com <br><br>
+            <img src="img/facebook.png" class="redes"> https://www.facebook.com/DanielCruzCV/ <br><br>
+            <img src="img/linkedin.png" class="redes"> https://www.linkedin.com/in/daniel-cruz-cv <br><br>
           </div>
           <div class="col-sm-6">
             <div class="row header">
-              <h1>CONTACT US &nbsp;</h1>
-              <h3>Fill out the form below to learn more!</h3>
+              <p class="puedes">O puedes enviarme un mensaje directo llenando el siguiente formulario:</p>
             </div>
             <div class="row body">
               <form action="#">
                 <ul>
                   <li>
                     <p class="left">
-                      <label for="first_name">first name</label>
-                      <input type="text" name="first_name" placeholder="John" />
+                      <label for="first_name">Empresa</label>
+                      <input type="text" name="first_name" placeholder="Empresa" />
                     </p>
                     <p class="pull-right">
-                      <label for="last_name">last name</label>
-                      <input type="text" name="last_name" placeholder="Smith" />      
+                      <label for="last_name">Vacante</label>
+                      <input type="text" name="last_name" placeholder="Desarrollador Web" />      
                     </p>
                   </li>
                   <li>
                     <p>
                       <label for="email">email <span class="req">*</span></label>
-                      <input type="email" name="email" placeholder="john.smith@gmail.com" />
+                      <input type="email" name="email" placeholder="cruzmmh@gmail.com" />
                     </p>
                   </li>        
                   <li><div class="divider"></div></li>
                   <li>
-                    <label for="comments">comments</label>
+                    <label for="comments">Descripción de la vacante:</label>
                     <textarea cols="46" rows="3" name="comments"></textarea>
                   </li>
                   <li>
-                    <input class="btn btn-submit" type="submit" value="Submit" />
-                    <small>or press <strong>enter</strong></small>
+                    <input class="contratame btnCV btnForm" type="submit" value="Submit" placeholder="Descripción de la vacante" />
                   </li>
                 </ul>
               </form>  
@@ -585,15 +588,11 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
-        <p class="text-right">Powered By <span>Daniel Cruz</span></p>
-      </div>
-      <div class="col-sm-6 centro">
-        <a href="https://github.com/POKEDANN"><i class="fab fa-github"></i></a>
-        <a href="https://bitbucket.org/POKEDANN/"><i class="fab fa-bitbucket" aria-hidden="true"></i></a>
-        <a href=" "><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-        <a href="http://stackoverflow.com/users/5848819/pokedann"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/in/daniel-cruz-cv"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+      <div class="col-sm-12 centro">
+        <a href="https://github.com/POKEDANN"><i class="fab fa-github fab2"></i></a>
+        <a href="https://www.facebook.com/DanielCruzCV/"><i class="fab fa-facebook-square fab2" aria-hidden="true"></i></a>
+        <a href="http://stackoverflow.com/users/5848819/pokedann"><i class="fab fa-stack-overflow fab2" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/daniel-cruz-cv"><i class="fab fa-linkedin fab2" aria-hidden="true"></i></a>
         <a href="https://www.wattpad.com/user/Pokedann"><img src="img/watt4.png" class="watt"></a>
       </div>
     </div>
