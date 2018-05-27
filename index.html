@@ -487,18 +487,57 @@
                   <h2 class="itemTitle">Memorama JS</h2>
                   <p class="itemPar">Memorama construido con JS, utilizando funciones e if, funciona de la misma manera que el juego de mesa real</p>
                   <a href="myprojects/Memorama-Js-Meetup-MartesJs/index.html"><button class="btn btn-outline-primary">Ver más</button></a>
-                </div><!-- 
+                </div>
                 <div class="col-sm-4 marBot">
-                  <img class="d-block w-100" src="img/formExamen.png" alt="First slide">
-                  <h2 class="itemTitle">Formulario sql</h2>
-                  <p class="itemPar">Formulario que se hizo para aprender sql con el objetivo de obtener datos de clientes</p>
-                  <a href="myprojects/form Sql/index.php"><button class="btn btn-outline-primary">Ver más</button></a>
-                </div> -->
+                  <img class="d-block w-100" src="img/primerAngular.png" alt="First slide">
+                  <h2 class="itemTitle">Mi primer Angular</h2>
+                  <p class="itemPar">Un ejercicio que hice para empezar a conocer AngularJs</p>
+                  <a href="myprojects/mi primer angular/video.html"><button class="btn btn-outline-primary">Ver más</button></a>
+                </div>
               </div>
             </div>
-            <!-- <div class="carousel-item">
-              <img class="d-block w-100" src="img/graduacion.png" alt="Third slide">
-            </div> -->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-sm-4 marBot">
+                  <img class="d-block w-100" src="img/comentarios.png" alt="First slide">
+                  <h2 class="itemTitle">Agregar comentarios AngularJS</h2>
+                  <p class="itemPar">Un ejercicio con Angular que simula ir agregando comentarios como en facebook</p>
+                  <a href="myprojects/Agregar comentarios AngularJS/holacontroller.html"><button class="btn btn-outline-primary">Ver más</button></a>
+                </div>
+                <div class="col-sm-4 marBot">
+                  <img class="d-block w-100" src="img/todolist.png" alt="First slide">
+                  <h2 class="itemTitle">To Do List AngularJs</h2>
+                  <p class="itemPar">Un To Do List que hice para practicar algunas cosas de Angular JS</p>
+                  <a href="myprojects/todolist/index.html"><button class="btn btn-outline-primary">Ver más</button></a>
+                </div>
+                <!-- <div class="col-sm-4 marBot">
+                  <img class="d-block w-100" src="img/apocalipsis.png" alt="First slide">
+                  <h2 class="itemTitle">Apocalipsis zombie JS</h2>
+                  <p class="itemPar">Ejercicio para aprender JS y probar algunas funciones de la consola como console.warn, Math.random, etc.</p>
+                  <a href="myprojects/apocalipsis zombie/index.html"><button class="btn btn-outline-primary">Ver más</button></a>
+                </div> -->
+              </div><!-- 
+              <div class="row">
+                <div class="col-sm-4 marBot">
+                  <img class="d-block w-100" src="img/casino.png" alt="First slide">
+                  <h2 class="itemTitle">Casinopolis JS</h2>
+                  <p class="itemPar">Ejercicio que hice para practicar algunas cosas de JS como change, Math.random y onload entre otros</p>
+                  <a href="myprojects/casinopolis/index.html"><button class="btn btn-outline-primary">Ver más</button></a>
+                </div>
+                <div class="col-sm-4 marBot">
+                  <img class="d-block w-100" src="img/memorama.png" alt="First slide">
+                  <h2 class="itemTitle">Memorama JS</h2>
+                  <p class="itemPar">Memorama construido con JS, utilizando funciones e if, funciona de la misma manera que el juego de mesa real</p>
+                  <a href="myprojects/Memorama-Js-Meetup-MartesJs/index.html"><button class="btn btn-outline-primary">Ver más</button></a>
+                </div>
+                <div class="col-sm-4 marBot">
+                  <img class="d-block w-100" src="img/primerAngular.png" alt="First slide">
+                  <h2 class="itemTitle">Mi primer Angular</h2>
+                  <p class="itemPar">Un ejercicio que hice para empezar a conocer AngularJs</p>
+                  <a href="myprojects/mi primer angular/video.html"><button class="btn btn-outline-primary">Ver más</button></a>
+                </div>
+              </div> -->
+            </div>
           </div>
           <a id="controlsFreeD" class="carousel-control-prev" href="#carouselfree" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -540,38 +579,37 @@
           <div class="col-sm-6">
             <p class="puedes">Puedes contactarme por medio de las siguientes redes sociales:</p>
             <img src="img/whats.png" class="redes"> 55-49-38-88-15 <br><br>
-            <img src="img/gmail.png" class="redes"> cruzmmh@gmail.com <br><br>
-            <img src="img/facebook.png" class="redes"> https://www.facebook.com/DanielCruzCV/ <br><br>
-            <img src="img/linkedin.png" class="redes"> https://www.linkedin.com/in/daniel-cruz-cv <br><br>
+            <img src="img/gmail.png" class="redes"><a href="cruzmmh@gmail.com"> cruzmmh@gmail.com</a> <br><br>
+            <img src="img/facebook.png" class="redes"><a href="https://www.facebook.com/DanielCruzCV/"> https://www.facebook.com/DanielCruzCV/</a> <br><br>
+            <img src="img/linkedin.png" class="redes"><a href="https://www.linkedin.com/in/daniel-cruz-cv"> https://www.linkedin.com/in/daniel-cruz-cv</a> <br><br>
           </div>
           <div class="col-sm-6">
             <div class="row header">
               <p class="puedes">O puedes enviarme un mensaje directo llenando el siguiente formulario:</p>
             </div>
             <div class="row body">
-              <form action="#">
+              <form action="form.php" method="post">
                 <ul>
                   <li>
                     <p class="left">
-                      <label for="first_name">Empresa</label>
-                      <input type="text" name="first_name" placeholder="Empresa" />
+                      <label>Empresa:</label>
+                      <input type="text" name="empresa" placeholder="Empresa" maxlength="40" required />
+                      <label>Vacante:</label>
+                      <input type="text" name="vacante" placeholder="Desarrollador Web" maxlength="50" required />
                     </p>
                     <p class="pull-right">
-                      <label for="last_name">Vacante</label>
-                      <input type="text" name="last_name" placeholder="Desarrollador Web" />      
+                      <label>Nombre completo:</label>
+                      <input type="text" name="nombre" placeholder="Nombre Completo" maxlength="50" required /> 
+                      <label>E-mail</label>
+                      <input type="email" name="email" placeholder="cruzmmh@gmail.com" maxlength="80" required />
                     </p>
-                  </li>
-                  <li>
-                    <p>
-                      <label for="email">email <span class="req">*</span></label>
-                      <input type="email" name="email" placeholder="cruzmmh@gmail.com" />
-                    </p>
-                  </li>        
+                  </li>       
                   <li><div class="divider"></div></li>
                   <li>
-                    <label for="comments">Descripción de la vacante:</label>
-                    <textarea cols="46" rows="3" name="comments"></textarea>
+                    <label>Descripción de la vacante:</label>
+                    <textarea cols="46" rows="3" name="descripcion" required></textarea>
                   </li>
+                  <div class="g-recaptcha" data-sitekey="6LdkqVsUAAAAAFVWGs00XF1xBjnsE_JlarQUSy6G"></div>
                   <li>
                     <input class="contratame btnCV btnForm" type="submit" value="Submit" placeholder="Descripción de la vacante" />
                   </li>
@@ -616,5 +654,6 @@
         $('[data-toggle="tooltip"]').tooltip()
       })
     </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </body>
 </html>

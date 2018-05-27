@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>Mi primer ejercicio AngularJS</title>
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+</head>
+<body>
+  <div ng-app>
+    <label>Nombre: </label>
+    <input type="text" placeholder="Escribe tu nombre" ng-model="nombre"><!--Aqui se pone el nombre como si fuera una clase-->
+    <input type="text" placeholder="Color" ng-model="color">
+    <hr>
+    <h1>Hola {{nombre}}!</h1><!--aqui se pone el mismo nombre de la "clase" que se dio arriba en ng model, asi se relacionan y eso hace que se refresque en vivo-->
+    <h1 class="text-{{color}}">Mi color es: {{color}}</h1><!--los colores que se pueden escribir son: Warning = yellow, Danger = red y Success = green-->
+    <!--Aqui sucede lo mismo que arriba, color esta ligado al input y por eso cambia el color-->
+    <h1 class="text-info">Utilizando color directo</h1><!--aqui se puede usar la clase directamente como text-info o text-warning-->
+  </div>
+  <div>
+    <a class="btn btn-lg btn-danger" href="https://github.com/POKEDANN" target="_blank"><!--el boton puede ser cambiado a danger o warning-->
+      Visita mi Github
+    </a>
+    <a class="btn btn-lg btn-warning" href="https://github.com/POKEDANN" target="_blank">
+      Visita mi Github
+      </a>
+  </div>
+</body>
+</html>
