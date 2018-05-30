@@ -7,6 +7,24 @@ $(function(){
 });
 
 $( document ).ready(function() {
+    $('#inicio').click(function() {
+                $('body').scrollTo('#carousel-example-generic', 800);
+        });
+    $('#exp').click(function() {
+                $('body').scrollTo('#experiencia', 800);
+        });
+    $('#super').click(function() {
+                $('body').scrollTo('#superp', 800);
+        });
+    $('#portaf').click(function() {
+                $('body').scrollTo('#portafolios', 800);
+        });
+    $('#hob').click(function() {
+                $('body').scrollTo('#hobb', 800);
+        });
+    $('#contrat').click(function() {
+                $('body').scrollTo('#contact', 800);
+        });
     $('.tecnologias').parallax({imageSrc: 'img/tecnologias4.png'});
     $(".rotate").textrotator({
         animation: "flip",

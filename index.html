@@ -22,7 +22,6 @@
   <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -30,19 +29,22 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-link inicio" id="inicio">Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" id="exp">Experiencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" id="super">Superpoderes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" id="portaf">Portafolios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" id="hob">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="contrat">¡Contratame!</a>
           </li>
       </div>
     </nav>
@@ -191,7 +193,7 @@
     <!-- experiencia y formacion -->
 
     <!-- skills -->
-    <section class="tecnologias blanco">
+    <section class="tecnologias blanco superp">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -259,7 +261,7 @@
     <!-- skills ends -->
 
     <!-- carrusel portafolios -->
-    <section class="code">
+    <section class="code" id="portafolios">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -562,7 +564,7 @@
     <!-- carrusel freelance -->
 
     <!-- hobbies -->
-    <section class="hobbies">
+    <section class="hobbies" id="hobb">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -577,7 +579,7 @@
     <!-- hobbies -->
 
     <!-- contacto -->
-    <section class="contacto blanco">
+    <section class="contacto blanco" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -657,6 +659,12 @@
     <script src="js/typed.js"></script>
     <script src="js/jquery.simple-text-rotator.js"></script>
     <script src="js/parallax.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script>
+      $('#inicio').click(function() {
+                $('body').scrollTo('#carousel-example-generic', 800);
+        });
+    </script>
     <script>
       $(function () {
         $('[data-toggle="tooltip"]').tooltip()
