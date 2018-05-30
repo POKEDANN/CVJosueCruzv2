@@ -29,7 +29,7 @@ a.nav-link{color: #fff !important; font-weight: 600;}
 a.nav-link.inicio:hover {color: #fff !important; font-size: 20px; transition: .5s; }
 a.nav-link:hover{color: #53d4ff !important;font-size: 20px;transition: .5s;}
 li.nav-item {margin-left: 96px; }
-#exper, #superp, #portafolios, #hobb, #contact{margin-top: -130px; height: 2px; width: 2px; position: absolute; }
+#exper, #superp, #portafolios, #hobb, #contact{margin-top: -55px; height: 2px; width: 2px; position: absolute; }
 
 /*estilos eslaider principal*/
 .slideTitle{font-size: 3rem;}
@@ -112,6 +112,7 @@ i.fas.fa-briefcase {font-size: 1.5rem; margin-left: 0.8rem; margin-top: 0.8rem;
 .listaExp{margin-top: 1.1rem;}
 
 /*estilos tecnologias*/
+.tecnologias{background-image: url("../img/tecnologias4.png");}
 .circle {stroke: #00c0ff; }
 circle.border {stroke: white; }
 text.timer {fill: white; }

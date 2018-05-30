@@ -15,7 +15,7 @@ $( document ).ready(function() {
          }
     });
     $('#inicio').click(function() {
-                $('body').scrollTo('#carousel-example-generic', 800);
+                $('body').scrollTo('#carouselExampleIndicators', 800);
         });
     $('#exp').click(function() {
                 $('body').scrollTo('#exper', 800);
@@ -32,7 +32,6 @@ $( document ).ready(function() {
     $('#contrat').click(function() {
                 $('body').scrollTo('#contact', 800);
         });
-    $('.tecnologias').parallax({imageSrc: 'img/tecnologias4.png'});
     $(".rotate").textrotator({
         animation: "flip",
         separator: ",",
