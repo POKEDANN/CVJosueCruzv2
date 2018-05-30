@@ -8,6 +8,7 @@ section{padding: 40px;}
 .azulRey{color: #02619a;}
 .negro{color: #333;}
 .blanco{color: #fff;}
+.blanco:hover{color: #fff !important;}
 .azulHover{color: #03A9F4;}
 .style-two {border: 0; height: 2px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #2196F3, rgba(0, 0, 0, 0)); }

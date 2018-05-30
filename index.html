@@ -30,7 +30,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
@@ -579,16 +588,16 @@
           <div class="col-sm-6">
             <p class="puedes">Puedes contactarme por medio de las siguientes redes sociales:</p>
             <img src="img/whats.png" class="redes"> 55-49-38-88-15 <br><br>
-            <img src="img/gmail.png" class="redes"><a href="cruzmmh@gmail.com"> cruzmmh@gmail.com</a> <br><br>
-            <img src="img/facebook.png" class="redes"><a href="https://www.facebook.com/DanielCruzCV/"> https://www.facebook.com/DanielCruzCV/</a> <br><br>
-            <img src="img/linkedin.png" class="redes"><a href="https://www.linkedin.com/in/daniel-cruz-cv"> https://www.linkedin.com/in/daniel-cruz-cv</a> <br><br>
+            <img src="img/gmail.png" class="redes"><a class="blanco" href="cruzmmh@gmail.com"> cruzmmh@gmail.com</a> <br><br>
+            <img src="img/facebook.png" class="redes"><a class="blanco" href="https://www.facebook.com/DanielCruzCV/"> https://www.facebook.com/DanielCruzCV/</a> <br><br>
+            <img src="img/linkedin.png" class="redes"><a class="blanco" href="https://www.linkedin.com/in/daniel-cruz-cv"> https://www.linkedin.com/in/daniel-cruz-cv</a> <br><br>
           </div>
           <div class="col-sm-6">
             <div class="row header">
               <p class="puedes">O puedes enviarme un mensaje directo llenando el siguiente formulario:</p>
             </div>
             <div class="row body">
-              <form action="form.php" method="post">
+              <form action="form.php" method="post" id="formDan">
                 <ul>
                   <li>
                     <p class="left">
@@ -609,13 +618,11 @@
                     <label>Descripción de la vacante:</label>
                     <textarea cols="46" rows="3" name="descripcion" required></textarea>
                   </li>
-                  <a style="background-image: "></a>
-                  <div class="g-recaptcha" data-sitekey="6LdkqVsUAAAAAFVWGs00XF1xBjnsE_JlarQUSy6G"></div>
                   <li>
-                    <input class="contratame btnCV btnForm" type="submit" value="Submit" placeholder="Descripción de la vacante" />
+                    <input class="contratame btnCV btnForm" type="submit" value="Enviar" placeholder="Descripción de la vacante" />
                   </li>
                 </ul>
-              </form>  
+              </form>
             </div>
           </div>
         </div>
