@@ -29,6 +29,7 @@ a.nav-link{color: #fff !important; font-weight: 600;}
 a.nav-link.inicio:hover {color: #fff !important; font-size: 20px; transition: .5s; }
 a.nav-link:hover{color: #53d4ff !important;font-size: 20px;transition: .5s;}
 li.nav-item {margin-left: 96px; }
+#exper, #superp, #portafolios, #hobb, #contact{margin-top: -130px; height: 2px; width: 2px; position: absolute; }
 
 /*estilos eslaider principal*/
 .slideTitle{font-size: 3rem;}

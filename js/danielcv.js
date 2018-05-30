@@ -7,11 +7,18 @@ $(function(){
 });
 
 $( document ).ready(function() {
+    $(window).on("scroll", function() {
+         if ($(this).scrollTop() > 600) {
+           $("#menu").addClass("fixed-top");
+         } else {
+           $("#menu").removeClass("fixed-top");
+         }
+    });
     $('#inicio').click(function() {
                 $('body').scrollTo('#carousel-example-generic', 800);
         });
     $('#exp').click(function() {
-                $('body').scrollTo('#experiencia', 800);
+                $('body').scrollTo('#exper', 800);
         });
     $('#super').click(function() {
                 $('body').scrollTo('#superp', 800);
