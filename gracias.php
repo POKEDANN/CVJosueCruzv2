@@ -18,10 +18,10 @@
 			<div class="row">
 				<div class="col-sm-12 text-center">
 					<img src="img/gracias.jpg" class="imgGracias">
-					<p><span class="interes">POR TU INTERÉS</span></p>
+					<p><span class="interes">POR TÚ INTERÉS</span></p>
 					<h3 class="recibido">He recibido satisfactoriamente tu mensaje</h3>
 					<p class="revisar">Te invito a revisar tu correo para leer el mensaje de confirmacion que te he enviado</p>
-					<p>Pronto seras redirigido a la pagina principal, si no te redirige en 15 segundos dale clic <a href="/"><u>aqui:</u></a></p>
+					<p>Pronto serás redirigido a la página principal, si no te redirige en 15 segundos dale clic <a href="/"><u>aquí:</u></a></p>
 				</div>
 			</div>
 		</div>
