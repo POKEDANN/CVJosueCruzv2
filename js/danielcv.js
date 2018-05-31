@@ -14,6 +14,15 @@ $( document ).ready(function() {
            $("#menu").removeClass("fixed-top");
          }
     });
+    if (document.documentElement.clientWidth <= 767) {
+        $(window).on("scroll", function() {
+             if ($(this).scrollTop() > 442) {
+               $("#menu").addClass("fixed-top");
+             } else {
+               $("#menu").removeClass("fixed-top");
+             }
+        });
+    }
     $('#inicio').click(function() {
                 $('body').scrollTo('#carouselExampleIndicators', 800);
         });
@@ -30,6 +39,9 @@ $( document ).ready(function() {
                 $('body').scrollTo('#hobb', 800);
         });
     $('#contrat').click(function() {
+                $('body').scrollTo('#contact', 800);
+        });
+    $('#btnContra').click(function() {
                 $('body').scrollTo('#contact', 800);
         });
     $(".rotate").textrotator({
